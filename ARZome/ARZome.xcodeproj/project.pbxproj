@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BE2C6901245FAE7E005CDEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C6900245FAE7E005CDEDA /* AppDelegate.swift */; };
-		BE2C6903245FAE7E005CDEDA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2C6902245FAE7E005CDEDA /* art.scnassets */; };
 		BE2C6905245FAE7E005CDEDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C6904245FAE7E005CDEDA /* ViewController.swift */; };
 		BE2C6908245FAE7E005CDEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2C6906245FAE7E005CDEDA /* Main.storyboard */; };
 		BE2C690A245FAE80005CDEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2C6909245FAE80005CDEDA /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		BE2C68FD245FAE7E005CDEDA /* ARZome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARZome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2C6900245FAE7E005CDEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE2C6902245FAE7E005CDEDA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		BE2C6904245FAE7E005CDEDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE2C6907245FAE7E005CDEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE2C6909245FAE80005CDEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				BE2C6900245FAE7E005CDEDA /* AppDelegate.swift */,
-				BE2C6902245FAE7E005CDEDA /* art.scnassets */,
 				BE2C6904245FAE7E005CDEDA /* ViewController.swift */,
 				BE2C6906245FAE7E005CDEDA /* Main.storyboard */,
 				BE2C6909245FAE80005CDEDA /* Assets.xcassets */,
@@ -235,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2C6903245FAE7E005CDEDA /* art.scnassets in Resources */,
 				BE6433E224615DC200226688 /* model in Resources */,
 				BE2C690D245FAE80005CDEDA /* LaunchScreen.storyboard in Resources */,
 				BE2C690A245FAE80005CDEDA /* Assets.xcassets in Resources */,
