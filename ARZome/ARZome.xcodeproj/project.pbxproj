@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2C6901245FAE7E005CDEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C6900245FAE7E005CDEDA /* AppDelegate.swift */; };
+		BE2C6903245FAE7E005CDEDA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2C6902245FAE7E005CDEDA /* art.scnassets */; };
+		BE2C6905245FAE7E005CDEDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C6904245FAE7E005CDEDA /* ViewController.swift */; };
+		BE2C6908245FAE7E005CDEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2C6906245FAE7E005CDEDA /* Main.storyboard */; };
+		BE2C690A245FAE80005CDEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2C6909245FAE80005CDEDA /* Assets.xcassets */; };
+		BE2C690D245FAE80005CDEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2C690B245FAE80005CDEDA /* LaunchScreen.storyboard */; };
+		BE2C6918245FAE80005CDEDA /* ARZomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C6917245FAE80005CDEDA /* ARZomeTests.swift */; };
+		BE2C6923245FAE80005CDEDA /* ARZomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2C6922245FAE80005CDEDA /* ARZomeUITests.swift */; };
+		BE6433E224615DC200226688 /* model in Resources */ = {isa = PBXBuildFile; fileRef = BE6433E124615DC100226688 /* model */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE2C6914245FAE80005CDEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2C68F5245FAE7E005CDEDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2C68FC245FAE7E005CDEDA;
+			remoteInfo = ARZome;
+		};
+		BE2C691F245FAE80005CDEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2C68F5245FAE7E005CDEDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2C68FC245FAE7E005CDEDA;
+			remoteInfo = ARZome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2C68FD245FAE7E005CDEDA /* ARZome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARZome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2C6900245FAE7E005CDEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE2C6902245FAE7E005CDEDA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		BE2C6904245FAE7E005CDEDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE2C6907245FAE7E005CDEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE2C6909245FAE80005CDEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE2C690C245FAE80005CDEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE2C690E245FAE80005CDEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2C6913245FAE80005CDEDA /* ARZomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARZomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2C6917245FAE80005CDEDA /* ARZomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARZomeTests.swift; sourceTree = "<group>"; };
+		BE2C6919245FAE80005CDEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2C691E245FAE80005CDEDA /* ARZomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARZomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2C6922245FAE80005CDEDA /* ARZomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARZomeUITests.swift; sourceTree = "<group>"; };
+		BE2C6924245FAE80005CDEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6433E124615DC100226688 /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2C68FA245FAE7E005CDEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2C6910245FAE80005CDEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2C691B245FAE80005CDEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE2C68F4245FAE7E005CDEDA = {
+			isa = PBXGroup;
+			children = (
+				BE2C68FF245FAE7E005CDEDA /* ARZome */,
+				BE2C6916245FAE80005CDEDA /* ARZomeTests */,
+				BE2C6921245FAE80005CDEDA /* ARZomeUITests */,
+				BE2C68FE245FAE7E005CDEDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2C68FE245FAE7E005CDEDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C68FD245FAE7E005CDEDA /* ARZome.app */,
+				BE2C6913245FAE80005CDEDA /* ARZomeTests.xctest */,
+				BE2C691E245FAE80005CDEDA /* ARZomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2C68FF245FAE7E005CDEDA /* ARZome */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C6900245FAE7E005CDEDA /* AppDelegate.swift */,
+				BE2C6902245FAE7E005CDEDA /* art.scnassets */,
+				BE2C6904245FAE7E005CDEDA /* ViewController.swift */,
+				BE2C6906245FAE7E005CDEDA /* Main.storyboard */,
+				BE2C6909245FAE80005CDEDA /* Assets.xcassets */,
+				BE2C690B245FAE80005CDEDA /* LaunchScreen.storyboard */,
+				BE2C690E245FAE80005CDEDA /* Info.plist */,
+				BE6433E124615DC100226688 /* model */,
+			);
+			path = ARZome;
+			sourceTree = "<group>";
+		};
+		BE2C6916245FAE80005CDEDA /* ARZomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C6917245FAE80005CDEDA /* ARZomeTests.swift */,
+				BE2C6919245FAE80005CDEDA /* Info.plist */,
+			);
+			path = ARZomeTests;
+			sourceTree = "<group>";
+		};
+		BE2C6921245FAE80005CDEDA /* ARZomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C6922245FAE80005CDEDA /* ARZomeUITests.swift */,
+				BE2C6924245FAE80005CDEDA /* Info.plist */,
+			);
+			path = ARZomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2C68FC245FAE7E005CDEDA /* ARZome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2C6927245FAE80005CDEDA /* Build configuration list for PBXNativeTarget "ARZome" */;
+			buildPhases = (
+				BE2C68F9245FAE7E005CDEDA /* Sources */,
+				BE2C68FA245FAE7E005CDEDA /* Frameworks */,
+				BE2C68FB245FAE7E005CDEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARZome;
+			productName = ARZome;
+			productReference = BE2C68FD245FAE7E005CDEDA /* ARZome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE2C6912245FAE80005CDEDA /* ARZomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2C692A245FAE80005CDEDA /* Build configuration list for PBXNativeTarget "ARZomeTests" */;
+			buildPhases = (
+				BE2C690F245FAE80005CDEDA /* Sources */,
+				BE2C6910245FAE80005CDEDA /* Frameworks */,
+				BE2C6911245FAE80005CDEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2C6915245FAE80005CDEDA /* PBXTargetDependency */,
+			);
+			name = ARZomeTests;
+			productName = ARZomeTests;
+			productReference = BE2C6913245FAE80005CDEDA /* ARZomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE2C691D245FAE80005CDEDA /* ARZomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2C692D245FAE80005CDEDA /* Build configuration list for PBXNativeTarget "ARZomeUITests" */;
+			buildPhases = (
+				BE2C691A245FAE80005CDEDA /* Sources */,
+				BE2C691B245FAE80005CDEDA /* Frameworks */,
+				BE2C691C245FAE80005CDEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2C6920245FAE80005CDEDA /* PBXTargetDependency */,
+			);
+			name = ARZomeUITests;
+			productName = ARZomeUITests;
+			productReference = BE2C691E245FAE80005CDEDA /* ARZomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2C68F5245FAE7E005CDEDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					BE2C68FC245FAE7E005CDEDA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BE2C6912245FAE80005CDEDA = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BE2C68FC245FAE7E005CDEDA;
+					};
+					BE2C691D245FAE80005CDEDA = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BE2C68FC245FAE7E005CDEDA;
+					};
+				};
+			};
+			buildConfigurationList = BE2C68F8245FAE7E005CDEDA /* Build configuration list for PBXProject "ARZome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2C68F4245FAE7E005CDEDA;
+			productRefGroup = BE2C68FE245FAE7E005CDEDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2C68FC245FAE7E005CDEDA /* ARZome */,
+				BE2C6912245FAE80005CDEDA /* ARZomeTests */,
+				BE2C691D245FAE80005CDEDA /* ARZomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2C68FB245FAE7E005CDEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2C6903245FAE7E005CDEDA /* art.scnassets in Resources */,
+				BE6433E224615DC200226688 /* model in Resources */,
+				BE2C690D245FAE80005CDEDA /* LaunchScreen.storyboard in Resources */,
+				BE2C690A245FAE80005CDEDA /* Assets.xcassets in Resources */,
+				BE2C6908245FAE7E005CDEDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2C6911245FAE80005CDEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2C691C245FAE80005CDEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2C68F9245FAE7E005CDEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2C6905245FAE7E005CDEDA /* ViewController.swift in Sources */,
+				BE2C6901245FAE7E005CDEDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2C690F245FAE80005CDEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2C6918245FAE80005CDEDA /* ARZomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2C691A245FAE80005CDEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2C6923245FAE80005CDEDA /* ARZomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE2C6915245FAE80005CDEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2C68FC245FAE7E005CDEDA /* ARZome */;
+			targetProxy = BE2C6914245FAE80005CDEDA /* PBXContainerItemProxy */;
+		};
+		BE2C6920245FAE80005CDEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2C68FC245FAE7E005CDEDA /* ARZome */;
+			targetProxy = BE2C691F245FAE80005CDEDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE2C6906245FAE7E005CDEDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2C6907245FAE7E005CDEDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE2C690B245FAE80005CDEDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2C690C245FAE80005CDEDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2C6925245FAE80005CDEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE2C6926245FAE80005CDEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE2C6928245FAE80005CDEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ARZome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE2C6929245FAE80005CDEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ARZome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE2C692B245FAE80005CDEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B59BD4KZ45;
+				INFOPLIST_FILE = ARZomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gouta.hayashi.ARZomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARZome.app/ARZome";
+			};
+			name = Debug;
+		};
+		BE2C692C245FAE80005CDEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B59BD4KZ45;
+				INFOPLIST_FILE = ARZomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gouta.hayashi.ARZomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARZome.app/ARZome";
+			};
+			name = Release;
+		};
+		BE2C692E245FAE80005CDEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B59BD4KZ45;
+				INFOPLIST_FILE = ARZomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gouta.hayashi.ARZomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARZome;
+			};
+			name = Debug;
+		};
+		BE2C692F245FAE80005CDEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B59BD4KZ45;
+				INFOPLIST_FILE = ARZomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gouta.hayashi.ARZomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARZome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2C68F8245FAE7E005CDEDA /* Build configuration list for PBXProject "ARZome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2C6925245FAE80005CDEDA /* Debug */,
+				BE2C6926245FAE80005CDEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2C6927245FAE80005CDEDA /* Build configuration list for PBXNativeTarget "ARZome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2C6928245FAE80005CDEDA /* Debug */,
+				BE2C6929245FAE80005CDEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2C692A245FAE80005CDEDA /* Build configuration list for PBXNativeTarget "ARZomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2C692B245FAE80005CDEDA /* Debug */,
+				BE2C692C245FAE80005CDEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2C692D245FAE80005CDEDA /* Build configuration list for PBXNativeTarget "ARZomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2C692E245FAE80005CDEDA /* Debug */,
+				BE2C692F245FAE80005CDEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2C68F5245FAE7E005CDEDA /* Project object */;
+}
