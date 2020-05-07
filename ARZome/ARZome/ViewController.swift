@@ -234,11 +234,11 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIPickerViewDataSourc
         // Run the view's session
         sceneView.session.run(configuration)
         
-        CatchB.frame = CGRect(x:screenWidth / 10,y:screenHeight - screenHeight / 4 ,width:100,height:100)
+        //CatchB.frame = CGRect(x:screenWidth / 10,y:screenHeight - screenHeight / 4 ,width:100,height:100)
         CatchB.layer.masksToBounds = true
         CatchB.layer.cornerRadius = 50.0
         
-        ReleaseB.frame = CGRect(x:screenWidth - screenWidth / 10 - 100,y:screenHeight - screenHeight / 4,width:100,height:100)
+        //ReleaseB.frame = CGRect(x:screenWidth - screenWidth / 10 - 100,y:screenHeight - screenHeight / 4,width:100,height:100)
         ReleaseB.layer.masksToBounds = true
         ReleaseB.layer.cornerRadius = 50.0
         
