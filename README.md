@@ -34,7 +34,7 @@ To appear in Bridges 2020 conference proceedings
 -  **Dodecahedron**
 
 - **Dome:**  
-Upper 2/3 of the truncated dodecahedron.
+Upper 2/3 of the truncated 120-cell.
 
 -  **Zome Bunny:**  
 H. Zimmer, F. Lafarge, P. Alliez, L. Kobbelt “Zometool Shape Approximation.” Graphical Models Volume 76, Issue 5, 2014, pp. 390-401.  
