@@ -38,5 +38,5 @@ Upper 2/3 of the truncated dodecahedron.
 
 -  **Zome Bunny:**  
 H. Zimmer, F. Lafarge, P. Alliez, L. Kobbelt “Zometool Shape Approximation.” Graphical Models Volume 76, Issue 5, 2014, pp. 390-401.  
-More .vef files can be downloaded from  
+More .vef files generated in this project be downloaded from  
 https://www.graphics.rwth-aachen.de/software/zometool/.
