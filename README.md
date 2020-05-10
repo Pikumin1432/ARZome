@@ -1,4 +1,4 @@
-# Arzome
+# ARZome
 
 Augmented Reality for Zome Construction
 
