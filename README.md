@@ -1,6 +1,6 @@
 # ARZome
 
-Argument Reality for Zome construction.
+Augmented Reality for Zome Construction
 
 One can place a Zome model generated from a .vef file (Scott Vorthmann's vZome format) in the virtual space of a smarphone. By adjusting it to a half-constructed physical Zome model, one can construct complicated 3D Zome models easily. It works for iPhone (iPhone 8 or later) and iPad (iPad Pro) .
 
