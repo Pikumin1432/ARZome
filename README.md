@@ -27,7 +27,7 @@ To appear in Bridges 2020 conference proceedings
 
  http://bridgesmathart.org/bridges-2020/
 
-## Zome models attached to this archive
+## Zome models attached in this archive
 
 -  **Dodecahedron**
 
