@@ -1,8 +1,8 @@
-# ARZome
+# Arzome
 
 Augmented Reality for Zome Construction
 
-One can place a Zome model generated from a .vef file (Scott Vorthmann's vZome format) in the virtual space of a smarphone. By adjusting it to a half-constructed physical Zome model, one can construct complicated 3D Zome models easily. It works for iPhone (iPhone 8 or later) and iPad (iPad Pro) .
+One can place a Zome model generated from a .vef file (Scott Vorthmann's vZome format) in the virtual space of a smartphone. By adjusting it to a half-constructed physical Zome model, one can construct complicated 3D Zome models easily. It works for iPhone (iPhone 8 or later) and iPad (iPad Pro) .
 
 ## Usage
 
@@ -14,14 +14,14 @@ One can place a Zome model generated from a .vef file (Scott Vorthmann's vZome f
 
 4.    You can "catch" it (fix it to the camera coordinate), move your smartphone, and "release" it (fix it to the world coordinate).
 
-5.    Repeat "catch" and "relase" to ajust the virtual model to the half-constructed physical model. Then, one can easily see how to connect the struts.
+5.    Repeat "catch" and "release" to adjust the virtual model to the half-constructed physical model. Then, one can easily see how to connect the struts.
 
 6.    Recommended to use phone neck holder so that you can use both hands for assembling.
 
 
 ## Reference
 
-Gouta Hayashi and Hideki Tsuiki  "Argument Reality for Zome Construction."
+Gouta Hayashi and Hideki Tsuiki  "Augmented Reality for Zome Construction." 
 To appear in Bridges 2020 conference proceedings 
 <a href="http://www.i.h.kyoto-u.ac.jp/~tsuiki/papers/HayashiTsuiki2.pdf"> (pdf) </a>.
 
